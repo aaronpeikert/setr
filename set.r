@@ -25,6 +25,11 @@ options(usethis.full_name = name)
 # blank
 use_blank_slate("project")
 
+# folders
+dir_create("data", "raw")
+dir_create("data", "clean")
+dir_create("supplement")
+
 # readme
 use_readme_md()
 
